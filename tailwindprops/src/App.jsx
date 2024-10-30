@@ -13,7 +13,7 @@ function App() {
     <>
 
       <h1 className='underline bg-blue rounded-50% font-bold border '>hello world </h1>
-      <Card />
+     
     <Card channel="chai aur code" name ="JIMMY" someobj = {data} someArr = {newArr} />
     {/* if passing through obj use destructuring obj and then use props.name to access the value of name in the obj  */}
     </>
