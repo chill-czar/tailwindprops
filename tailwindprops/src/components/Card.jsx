@@ -1,12 +1,13 @@
 import React from 'react'
 
 function Card(props) {
-    console.log("props="+ props.name + " " + props.channel)
+    console.log("props=" + props.name)
 
     
     return (
 <>
-        <div> card </div>
+        <div> 
+             </div>
           <div className="flex flex-col rounded-xl  p-4"
           style={{
             border: '0.88px solid',
