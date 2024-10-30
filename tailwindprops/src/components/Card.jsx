@@ -1,7 +1,7 @@
 import React from 'react'
 
 function Card(props) {
-    console.log("props=" + props.name)
+    console.log("props=", props)
 
     
     return (
