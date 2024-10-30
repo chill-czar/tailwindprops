@@ -1,8 +1,12 @@
-
+import PropTypes from 'prop-types';
 
 function Card({ someobj, someArr, ...props }) {
     console.log("props=", props)
-
+    Card.propTypes = {
+        someobj: PropTypes.object.isRequired, // Assuming it should be an object
+        someArr: PropTypes.array, // Assuming it should be an array
+        someobjName: PropTypes.string // Assuming it should be a string
+    };
 
     return (
         <>
