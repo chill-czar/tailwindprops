@@ -1,6 +1,6 @@
-import React from 'react'
 
-function Card(props) {
+
+function Card({ someobj, someArr, ...props }) {
     console.log("props=", props)
 
 
@@ -27,12 +27,11 @@ function Card(props) {
                 </div>
                 <div className="flex flex-col  rounded-b-xl py-4 ">
                     <div className="flex justify-between">
-                        <h1 className="font-RubikBold ">{props.name} </h1>
+                        <h1 className="font-RubikBold ">{someobj.name} </h1>
                         <h1 className="font-bold font-RubikBold">Price</h1>
                     </div>
                     <div className="flex  justify-between font-mono">
-                        <p>#345</p>
-                        <p>0.01</p>
+                        <p>{someArr}</p>
                     </div>
                 </div>
             </div>
